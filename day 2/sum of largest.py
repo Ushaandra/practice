@@ -1,0 +1,7 @@
+l=list(map(int,input().split()))
+l.sort()
+a=max(l)
+l.remove(a)
+b=max(l)
+l.remove(b)
+print(a+b)
